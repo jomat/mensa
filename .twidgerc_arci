@@ -1,0 +1,11 @@
+[DEFAULT]
+oauthaccesstoken: %(urlbase)s/oauth/access_token
+oauthauthorize: %(urlbase)s/oauth/authorize
+oauthdata: [("user_id","xxxxxx"),("screen_name","Mensa_Arci"),("oauth_verifier","xxxxxxx"),("oauth_token","some more xxxxx"),("oauth_token_secret","even more xxxxx"),("oauth_callback_confirmed","true")]
+oauthrequesttoken: %(urlbase)s/oauth/request_token
+password: find it out
+sendmail: /usr/sbin/sendmail
+shortenurls: no
+urlbase: https://twitter.com
+username: Mensa_Arci
+
