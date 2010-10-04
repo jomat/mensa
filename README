@@ -1,0 +1,15 @@
+Twitter/Identi.ca/... support
+-----------------------------
+1. You need elinks: sudo apt-get install elinks
+2. You need twidge: sudo apt-get install twidge
+3. You need your config file: vim ~/.mytwidgerc
+4. You need to edit mensaident.sh for your needs.
+5. Add the Script to your crontab:
+7 5 * * 1-5 /usr/local/bin/mensaident.sh
+
+Mailinglist support:
+--------------------
+1. See microblogging support without twidge.
+2. Edit your contab:
+7 5 * * 1-5 /usr/local/bin/mensamail.sh|sendmail -F "/dev/null" -r DevNull mensaleo@lists.ifi.XXX.de
+
